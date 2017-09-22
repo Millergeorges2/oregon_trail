@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style='text-align:center;background-image: url(https://i.ytimg.com/vi/PC0YyBI0iT8/maxresdefault.jpg);background-repeat:no-repeat;width:1400px;height:900px;' id="mainpage" align="center">
+    <section>
+            <audio src="http://pop-songs.s3.amazonaws.com/Titanic-My-heart-will-go-on.mp3" autoplay="autoplay" loop="loop"></audio>
+            <img src="http://walnuthighschoolfootball.com/wp-content/uploads/CoveredWagonAnimated.gif">
+    </section>
+    
+    <section id="charSelectMenu">
+         <h1>Select your difficulty:</h1>
+
+        <select class="form-control col-lg-4" id="charSelect">
+        <option value=1600> Banker</option>
+        <option value=800> Carpenter</option>
+        <option value=400> Farmer</option>
+
+    </select>
+
+    <button  id="nextCharSelect">Next</button>
+    </section>
+
+    <section id="partyMembers">
+        <h1>Name your party members!</h1>
+        <input class= "form-control col-md-4" id="memberOne"></input>
+        <input class= "form-control col-md-4" id="memberTwo"></input>
+        <input class= "form-control col-md-4" id="memberThree"></input>
+        <input class= "form-control col-md-4"  id="memberFour"></input>
+        <input class= "form-control col-md-4" id="memberFive"></input>
+        <button id="nextPartyMembers">Next</button>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

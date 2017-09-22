@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Amatic SC", cursive;
+    margin-bottom: 10px;
+}
+
+#nextCharSelect{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px, 50px, 10px, 50px;
+    color: white;
+}
+
+select{
+    margin: auto;
+}
+
+#nextPartyMembers{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px, 50px, 10px, 50px;
+    color: white;
+}
+
+input{
+    margin:auto;
+}
